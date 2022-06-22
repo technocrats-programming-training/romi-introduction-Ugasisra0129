@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Compilation Test",
-      "setup": "",
+      "setup": "chmod +x ./gradlew",
       "run": "./gradlew build -x test",
       "input": "",
       "output": "",
@@ -12,18 +12,8 @@
     },
     {
       "name": "Left Motor Usage Test",
-      "setup": "",
+      "setup": "chmod +x ./gradlew",
       "run": "./gradlew test --tests frc.robot.RobotTest.testUsesLeftMotor",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "Right Motor Usage Test",
-      "setup": "",
-      "run": "./gradlew test --tests frc.robot.RobotTest.testUsesRightMotor",
       "input": "",
       "output": "",
       "comparison": "included",
